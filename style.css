@@ -1,0 +1,46 @@
+html {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0; 
+  background-color: #dfa023;
+}
+
+.robot {
+  max-width: 100%;
+  margin-bottom: 1rem;
+}
+
+.container {
+  min-height: 100vh; 
+  max-width: 18.75rem;
+  padding: 1rem;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#btn {
+  cursor: pointer;
+  outline: none;
+  width: 15rem;
+  height: 3.125rem;
+  background: #20dfd6;
+  border: none;
+  border-radius: 0.3125rem;
+  font-family: 'Press Start 2P', cursive;
+  box-shadow: 2px 2px 20px 10px rgba(0,0,0,0.2);
+  transition: filter 0.2s ease-in-out;
+}
+
+#btn:hover {
+    filter: brightness(90%);
+}
+
+#btn:active {
+  transform: scale(0.95);
+}
+
